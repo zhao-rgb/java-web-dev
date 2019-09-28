@@ -16,7 +16,7 @@ import java.util.List;
  * @Version 1.0
  **/
 public class UserService {
-        private List<User> userList;
+    private List<User> userList;
 
     public UserService() {
         init();
@@ -47,7 +47,7 @@ public class UserService {
         for (User user : userList) {
             if (user.getAccount().equals(account) && user.getPassword().equals(Md5Util.crypt(password))) {
                 return user;
-           }
+            }
         }
         return null;
     }
@@ -56,8 +56,8 @@ public class UserService {
         User user = new UserService().signIn("13951905171", Md5Util.crypt("111"));
         if (user != null) {
             System.out.println(user);
-       } else {
+        } else {
             System.out.println("登录失败");
-       }
+        }
     }
 }
