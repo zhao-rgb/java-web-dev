@@ -15,10 +15,10 @@
         <a href="${pageContext.request.contextPath}/index">首页</a>
     </li>
     <li>
-        <a href="#">读书</a>
+        <a href="${pageContext.request.contextPath}/read.jsp">读书</a>
     </li>
     <li>
-        <a href="#">音乐</a>
+        <a href="${pageContext.request.contextPath}/music.jsp">音乐</a>
     </li>
     <li>
         <a href="#">小组</a>

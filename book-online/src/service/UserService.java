@@ -1,8 +1,6 @@
 package service;
-
 import entity.User;
 import utils.Md5Util;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -29,9 +27,9 @@ public class UserService {
     public List<User> init() {
         userList = new ArrayList<>(3);
         User[] users = {
-                new User(1, "aaa@qq.com", "698d51a19d8a121ce581499d7b701668", "开到荼蘼", "user1.jpg", "江苏南京", LocalDate.of(2018, 6, 11)),
-                new User(2, "bbb@qq.com", "698d51a19d8a121ce581499d7b701668", "小幸运", "user2.jpg", "浙江杭州", LocalDate.of(2019, 2, 18)),
-                new User(3, "ccc@qq.com", "698d51a19d8a121ce581499d7b701668", "往后余生", "user3.jpg", "湖北武汉", LocalDate.of(2019, 8, 19))
+                new User(1, "aaa@qq.com", "698d51a19d8a121ce581499d7b701668", "撒野", "user1.jpg", "江苏无锡", LocalDate.of(2018, 6, 11)),
+                new User(2, "bbb@qq.com", "698d51a19d8a121ce581499d7b701668", "啦", "user2.jpg", "贵州贵阳", LocalDate.of(2019, 2, 18)),
+                new User(3, "ccc@qq.com", "698d51a19d8a121ce581499d7b701668", "我会发光", "user3.jpg", "湖北武汉", LocalDate.of(2019, 8, 19))
         };
         userList = Arrays.asList(users);
         return userList;

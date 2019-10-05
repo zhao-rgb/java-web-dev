@@ -189,21 +189,27 @@
                 <br>
                 <div class="read">
                     <p><a href="">${user.nickname}</a>想读
-                        <a href="">写给大忙人的Java SE 8</a>
+                        <a href="">杜尚</a>
                     </p>
-                    <p style="color: #9b9b9b;">2018年1月2日</p>
+                    <p style="color: #9b9b9b;">2018年11月2日</p>
                 </div>
                 <div class="read">
-                    <p><a href="">${user.nickname}</a>想读
-                        <a href="">写给大忙人的Java SE 8</a>
+                    <p><a href="">${user.nickname}</a>未读
+                        <a href="">沉睡者</a>
                     </p>
-                    <p style="color: #9b9b9b;">2018年1月2日</p>
+                    <p style="color: #9b9b9b;">2018年9月2日</p>
                 </div>
                 <div class="read">
-                    <p><a href="">${user.nickname}</a>想读
-                        <a href="">写给大忙人的Java SE 8</a>
+                    <p><a href="">${user.nickname}</a>读了一半
+                        <a href="">孩子的儿童</a>
                     </p>
-                    <p style="color: #9b9b9b;">2018年1月2日</p>
+                    <p style="color: #9b9b9b;">2018年5月2日</p>
+                </div>
+                <div class="read">
+                    <p><a href="">${user.nickname}</a>读过
+                        <a href="">乡野闲人</a>
+                    </p>
+                    <p style="color: #9b9b9b;">2018年4月2日</p>
                 </div>
             </div>
         </div>
